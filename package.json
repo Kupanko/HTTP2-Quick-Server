@@ -1,0 +1,17 @@
+{
+    "name": "yka-quickserver",
+    "displayName": "YKA - HTTP2 Server",
+    "version": "0.1.3",
+    "description": "HTTP2 Quick start server",
+    "types": "./type/index.d.ts",
+    "author": "Kupano",
+    "license": "MIT",
+    "main": "./dist/index.cjs",
+    "scripts": {
+        "build": "tsc --build tsconfig.json"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.1",
+        "typescript": "^5.8.3"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "NodeNext",
+        "outDir": "dist",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "lib": ["ES2023", "DOM"],
+        "declaration": true,
+        "declarationDir": "./type/"
+    },
+    "file": ["index.cts"]
+}
